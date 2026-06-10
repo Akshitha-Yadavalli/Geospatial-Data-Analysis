@@ -1,0 +1,10 @@
+GEOSPATIAL DATA ANALYSIS REPORT
+===============================
+
+Recommended Expansion Locations:
+
+- Pune
+- Visakhapatnam
+- Coimbatore
+- Indore
+- Surat

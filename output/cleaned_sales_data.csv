@@ -1,0 +1,16 @@
+City,State,Latitude,Longitude,Sales,DemandScore,ExistingStores
+Hyderabad,Telangana,17.385,78.4867,150000,95,3
+Bangalore,Karnataka,12.9716,77.5946,180000,98,5
+Chennai,Tamil Nadu,13.0827,80.2707,120000,85,2
+Mumbai,Maharashtra,19.076,72.8777,250000,99,8
+Delhi,Delhi,28.7041,77.1025,220000,97,6
+Pune,Maharashtra,18.5204,73.8567,140000,92,1
+Vijayawada,Andhra Pradesh,16.5062,80.648,110000,90,0
+Visakhapatnam,Andhra Pradesh,17.6868,83.2185,125000,93,1
+Warangal,Telangana,17.9689,79.5941,90000,88,0
+Tirupati,Andhra Pradesh,13.6288,79.4192,85000,87,0
+Nagpur,Maharashtra,21.1458,79.0882,95000,89,0
+Mysore,Karnataka,12.2958,76.6394,80000,84,0
+Coimbatore,Tamil Nadu,11.0168,76.9558,100000,91,1
+Indore,Madhya Pradesh,22.7196,75.8577,115000,94,1
+Surat,Gujarat,21.1702,72.8311,135000,96,1

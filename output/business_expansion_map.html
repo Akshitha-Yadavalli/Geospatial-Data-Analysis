@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a20442d42b9b1569aad8fe9f16038124 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a20442d42b9b1569aad8fe9f16038124" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a20442d42b9b1569aad8fe9f16038124 = L.map(
+                "map_a20442d42b9b1569aad8fe9f16038124",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a5e0f856aa6efe5f7750fcfd72439d46 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a5e0f856aa6efe5f7750fcfd72439d46.addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+            var marker_06205e5d8e9602a139969cab3575b289 = L.marker(
+                [17.385, 78.4867],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_01289fd8bc3616753a32c139c73c3bfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59c09ad5a450317f1bcc022bde2890f0 = $(`<div id="html_59c09ad5a450317f1bcc022bde2890f0" style="width: 100.0%; height: 100.0%;">Hyderabad | Sales: 150000 | Demand: 95</div>`)[0];
+                popup_01289fd8bc3616753a32c139c73c3bfc.setContent(html_59c09ad5a450317f1bcc022bde2890f0);
+            
+        
+
+        marker_06205e5d8e9602a139969cab3575b289.bindPopup(popup_01289fd8bc3616753a32c139c73c3bfc)
+        ;
+
+        
+    
+    
+            marker_06205e5d8e9602a139969cab3575b289.bindTooltip(
+                `<div>
+                     Hyderabad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0f6ca24025e58c374d02e022d956eb5d = L.marker(
+                [12.9716, 77.5946],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_9a7797d93644664effdd423349786351 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfb1c74f79f4ae73e3cb555a3146a11b = $(`<div id="html_bfb1c74f79f4ae73e3cb555a3146a11b" style="width: 100.0%; height: 100.0%;">Bangalore | Sales: 180000 | Demand: 98</div>`)[0];
+                popup_9a7797d93644664effdd423349786351.setContent(html_bfb1c74f79f4ae73e3cb555a3146a11b);
+            
+        
+
+        marker_0f6ca24025e58c374d02e022d956eb5d.bindPopup(popup_9a7797d93644664effdd423349786351)
+        ;
+
+        
+    
+    
+            marker_0f6ca24025e58c374d02e022d956eb5d.bindTooltip(
+                `<div>
+                     Bangalore
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d9f9def0cd135167e5610d40c9a4fbb4 = L.marker(
+                [13.0827, 80.2707],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_7ab2382dc3547ad49948fceb750578b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9a07d5d5f9f2a199eedd6eef9e78682 = $(`<div id="html_d9a07d5d5f9f2a199eedd6eef9e78682" style="width: 100.0%; height: 100.0%;">Chennai | Sales: 120000 | Demand: 85</div>`)[0];
+                popup_7ab2382dc3547ad49948fceb750578b6.setContent(html_d9a07d5d5f9f2a199eedd6eef9e78682);
+            
+        
+
+        marker_d9f9def0cd135167e5610d40c9a4fbb4.bindPopup(popup_7ab2382dc3547ad49948fceb750578b6)
+        ;
+
+        
+    
+    
+            marker_d9f9def0cd135167e5610d40c9a4fbb4.bindTooltip(
+                `<div>
+                     Chennai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eb8fcdd0d1a12d097772c28428252a25 = L.marker(
+                [19.076, 72.8777],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_3ea47e3a77ca23073e62240a25952569 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_78b7b752a58470c3519bfc406ef8b166 = $(`<div id="html_78b7b752a58470c3519bfc406ef8b166" style="width: 100.0%; height: 100.0%;">Mumbai | Sales: 250000 | Demand: 99</div>`)[0];
+                popup_3ea47e3a77ca23073e62240a25952569.setContent(html_78b7b752a58470c3519bfc406ef8b166);
+            
+        
+
+        marker_eb8fcdd0d1a12d097772c28428252a25.bindPopup(popup_3ea47e3a77ca23073e62240a25952569)
+        ;
+
+        
+    
+    
+            marker_eb8fcdd0d1a12d097772c28428252a25.bindTooltip(
+                `<div>
+                     Mumbai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3477c7c813369c809426739deab2fa05 = L.marker(
+                [28.7041, 77.1025],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_9bcbd2aa33275889190ce042564a85c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_011c4f58c89fab28d87523d8fae30308 = $(`<div id="html_011c4f58c89fab28d87523d8fae30308" style="width: 100.0%; height: 100.0%;">Delhi | Sales: 220000 | Demand: 97</div>`)[0];
+                popup_9bcbd2aa33275889190ce042564a85c4.setContent(html_011c4f58c89fab28d87523d8fae30308);
+            
+        
+
+        marker_3477c7c813369c809426739deab2fa05.bindPopup(popup_9bcbd2aa33275889190ce042564a85c4)
+        ;
+
+        
+    
+    
+            marker_3477c7c813369c809426739deab2fa05.bindTooltip(
+                `<div>
+                     Delhi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3600952616d6ed1c33e93fa761783c28 = L.marker(
+                [18.5204, 73.8567],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_efac3f2c5af128d9cad3af2d842f7e04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23a28d537a54e851930bd7ac525528d3 = $(`<div id="html_23a28d537a54e851930bd7ac525528d3" style="width: 100.0%; height: 100.0%;">Pune | Sales: 140000 | Demand: 92</div>`)[0];
+                popup_efac3f2c5af128d9cad3af2d842f7e04.setContent(html_23a28d537a54e851930bd7ac525528d3);
+            
+        
+
+        marker_3600952616d6ed1c33e93fa761783c28.bindPopup(popup_efac3f2c5af128d9cad3af2d842f7e04)
+        ;
+
+        
+    
+    
+            marker_3600952616d6ed1c33e93fa761783c28.bindTooltip(
+                `<div>
+                     Pune
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8fe51b9263d755b3dfb5d16e3d37b084 = L.marker(
+                [16.5062, 80.648],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_7af1a320daf6cdbe437c0e3415d4607d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eb07a03f3f6d73ceb408f9a5d3dadc7 = $(`<div id="html_0eb07a03f3f6d73ceb408f9a5d3dadc7" style="width: 100.0%; height: 100.0%;">Vijayawada | Sales: 110000 | Demand: 90</div>`)[0];
+                popup_7af1a320daf6cdbe437c0e3415d4607d.setContent(html_0eb07a03f3f6d73ceb408f9a5d3dadc7);
+            
+        
+
+        marker_8fe51b9263d755b3dfb5d16e3d37b084.bindPopup(popup_7af1a320daf6cdbe437c0e3415d4607d)
+        ;
+
+        
+    
+    
+            marker_8fe51b9263d755b3dfb5d16e3d37b084.bindTooltip(
+                `<div>
+                     Vijayawada
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0f65ebba44f9dd0925e9ca4b9bb975e7 = L.marker(
+                [17.6868, 83.2185],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_1807dc658d8c6e930cfdc371789d8097 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08252a93be537222a46a37b1ab97cd79 = $(`<div id="html_08252a93be537222a46a37b1ab97cd79" style="width: 100.0%; height: 100.0%;">Visakhapatnam | Sales: 125000 | Demand: 93</div>`)[0];
+                popup_1807dc658d8c6e930cfdc371789d8097.setContent(html_08252a93be537222a46a37b1ab97cd79);
+            
+        
+
+        marker_0f65ebba44f9dd0925e9ca4b9bb975e7.bindPopup(popup_1807dc658d8c6e930cfdc371789d8097)
+        ;
+
+        
+    
+    
+            marker_0f65ebba44f9dd0925e9ca4b9bb975e7.bindTooltip(
+                `<div>
+                     Visakhapatnam
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7ffe0c75a348d746043b3456c15d1d34 = L.marker(
+                [17.9689, 79.5941],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_61bce6b389bd68c4fed407796a1c75ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e479746522c295030d636f0ce0a8c664 = $(`<div id="html_e479746522c295030d636f0ce0a8c664" style="width: 100.0%; height: 100.0%;">Warangal | Sales: 90000 | Demand: 88</div>`)[0];
+                popup_61bce6b389bd68c4fed407796a1c75ad.setContent(html_e479746522c295030d636f0ce0a8c664);
+            
+        
+
+        marker_7ffe0c75a348d746043b3456c15d1d34.bindPopup(popup_61bce6b389bd68c4fed407796a1c75ad)
+        ;
+
+        
+    
+    
+            marker_7ffe0c75a348d746043b3456c15d1d34.bindTooltip(
+                `<div>
+                     Warangal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2f92e5999bc9599f0bdd312d78bbe5da = L.marker(
+                [13.6288, 79.4192],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_2913bdcccc23e94d46b740828f5eefd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7223413befb6cc05bcaf0f278b95386 = $(`<div id="html_e7223413befb6cc05bcaf0f278b95386" style="width: 100.0%; height: 100.0%;">Tirupati | Sales: 85000 | Demand: 87</div>`)[0];
+                popup_2913bdcccc23e94d46b740828f5eefd2.setContent(html_e7223413befb6cc05bcaf0f278b95386);
+            
+        
+
+        marker_2f92e5999bc9599f0bdd312d78bbe5da.bindPopup(popup_2913bdcccc23e94d46b740828f5eefd2)
+        ;
+
+        
+    
+    
+            marker_2f92e5999bc9599f0bdd312d78bbe5da.bindTooltip(
+                `<div>
+                     Tirupati
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c0dabc68278a7190ff1fb94b020e401b = L.marker(
+                [21.1458, 79.0882],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_899bd154dcb639f9fc204cbb8d47f2f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08a2948693da97b82627eb94e9629f7e = $(`<div id="html_08a2948693da97b82627eb94e9629f7e" style="width: 100.0%; height: 100.0%;">Nagpur | Sales: 95000 | Demand: 89</div>`)[0];
+                popup_899bd154dcb639f9fc204cbb8d47f2f9.setContent(html_08a2948693da97b82627eb94e9629f7e);
+            
+        
+
+        marker_c0dabc68278a7190ff1fb94b020e401b.bindPopup(popup_899bd154dcb639f9fc204cbb8d47f2f9)
+        ;
+
+        
+    
+    
+            marker_c0dabc68278a7190ff1fb94b020e401b.bindTooltip(
+                `<div>
+                     Nagpur
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_604c40200eba3fc1c792d81fb8b0a2ec = L.marker(
+                [12.2958, 76.6394],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_0c7b3d1026078f98c4e0cc442b7040ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16722775cc2a546c81eb47c6ea5aefe0 = $(`<div id="html_16722775cc2a546c81eb47c6ea5aefe0" style="width: 100.0%; height: 100.0%;">Mysore | Sales: 80000 | Demand: 84</div>`)[0];
+                popup_0c7b3d1026078f98c4e0cc442b7040ad.setContent(html_16722775cc2a546c81eb47c6ea5aefe0);
+            
+        
+
+        marker_604c40200eba3fc1c792d81fb8b0a2ec.bindPopup(popup_0c7b3d1026078f98c4e0cc442b7040ad)
+        ;
+
+        
+    
+    
+            marker_604c40200eba3fc1c792d81fb8b0a2ec.bindTooltip(
+                `<div>
+                     Mysore
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3546ad8c5d379c89673cecb3ecd268a4 = L.marker(
+                [11.0168, 76.9558],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_bc956a9c028da1331840d3ab31b5877a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d6f333cadd577e9cb3762388b677e33 = $(`<div id="html_8d6f333cadd577e9cb3762388b677e33" style="width: 100.0%; height: 100.0%;">Coimbatore | Sales: 100000 | Demand: 91</div>`)[0];
+                popup_bc956a9c028da1331840d3ab31b5877a.setContent(html_8d6f333cadd577e9cb3762388b677e33);
+            
+        
+
+        marker_3546ad8c5d379c89673cecb3ecd268a4.bindPopup(popup_bc956a9c028da1331840d3ab31b5877a)
+        ;
+
+        
+    
+    
+            marker_3546ad8c5d379c89673cecb3ecd268a4.bindTooltip(
+                `<div>
+                     Coimbatore
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8f506282df0501b19642fde23e5555bd = L.marker(
+                [22.7196, 75.8577],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_a206c4ecd1d3cd6ee7d4cd9c023bdaa2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27ac12ce65c4ba3759eb68098e3c988c = $(`<div id="html_27ac12ce65c4ba3759eb68098e3c988c" style="width: 100.0%; height: 100.0%;">Indore | Sales: 115000 | Demand: 94</div>`)[0];
+                popup_a206c4ecd1d3cd6ee7d4cd9c023bdaa2.setContent(html_27ac12ce65c4ba3759eb68098e3c988c);
+            
+        
+
+        marker_8f506282df0501b19642fde23e5555bd.bindPopup(popup_a206c4ecd1d3cd6ee7d4cd9c023bdaa2)
+        ;
+
+        
+    
+    
+            marker_8f506282df0501b19642fde23e5555bd.bindTooltip(
+                `<div>
+                     Indore
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_78870292d0b2408b5c66d4ba2c520f56 = L.marker(
+                [21.1702, 72.8311],
+                {
+}
+            ).addTo(map_a20442d42b9b1569aad8fe9f16038124);
+        
+    
+        var popup_d04857910dda2bd36d46e6039a4bd1ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4388788608b98fde0c6876074cde0f5b = $(`<div id="html_4388788608b98fde0c6876074cde0f5b" style="width: 100.0%; height: 100.0%;">Surat | Sales: 135000 | Demand: 96</div>`)[0];
+                popup_d04857910dda2bd36d46e6039a4bd1ae.setContent(html_4388788608b98fde0c6876074cde0f5b);
+            
+        
+
+        marker_78870292d0b2408b5c66d4ba2c520f56.bindPopup(popup_d04857910dda2bd36d46e6039a4bd1ae)
+        ;
+
+        
+    
+    
+            marker_78870292d0b2408b5c66d4ba2c520f56.bindTooltip(
+                `<div>
+                     Surat
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
